@@ -214,6 +214,9 @@ img {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -286,6 +289,10 @@ img {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--main-text-color2);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contect-link:hover,
@@ -300,6 +307,12 @@ img {
 
 .header-contect-link:hover .header-icons {
   fill: var(--accent-color);
+}
+
+.header-icons {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ================= /HEADER ================= */
@@ -410,6 +423,7 @@ img {
   cursor: pointer;
 
   color: var(--one-color);
+
 }
 
 .modal-btn:hover,
@@ -445,7 +459,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 0.5s ease-in-out 0.5s;
+  transition: transform 0.5s ease-in-out;
   height: 581px;
   width: 528px;
   max-width: 528px;
@@ -504,6 +518,12 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--one-color);
+}
+
+.link-team-icons {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -581,6 +601,14 @@ img {
   fill: var(--color-icons);
 }
 
+.icon-client-link {
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
 .icon-client-item {
   margin-right: 30px;
 }
@@ -596,6 +624,12 @@ img {
 .icon-client-link:hover .icon-client,
 .icon-client-link:focus .icon-client {
   fill: var(--accent-color);
+}
+
+.icon-client {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ================= /HERO ================= */
@@ -638,6 +672,7 @@ img {
   cursor: pointer;
   background-color: var(--background-button-color);
   border: none;
+
 }
 
 .modal-button:hover,
@@ -647,6 +682,12 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.modal-button {
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
