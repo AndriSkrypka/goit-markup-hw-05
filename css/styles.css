@@ -548,6 +548,12 @@ img {
   display: block;
 }
 
+.hover-link {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .employees-deskr {
   position: relative;
   overflow: hidden;
@@ -581,6 +587,12 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--color-icons);
+}
+
+.icon-team {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-client-list {
