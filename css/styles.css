@@ -438,13 +438,13 @@ img {
   padding: 40px;
 }
 
-.close-modal-icon:hover,
+.close-modal-btn:hover,
 .close-modal-icon:hover {
   fill: var(--accent-color);
 }
 
 .close-modal-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -550,7 +550,6 @@ img {
 
   padding: 10px 25px;
 
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
