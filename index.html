@@ -98,7 +98,7 @@
                 </svg>
               </label>
 
-              <label class="form-label">
+              <label class="form-label-textarea">
                 <span class="label-title">Комментарий</span>
                 <textarea
                   class="form-textarea"
@@ -108,16 +108,17 @@
               </label>
 
               <label class="checkbox-label">
-                <input type="checkbox" name="policy" value="agree" />
-                <span class="check"></span>
+                <input class="checkbox" type="checkbox" name="policy" value="agree" />
+                <span class="check"
+                  ><svg class="check-svg" width="16" height="15">
+                    <use href="./images/svg/icons/icons.svg#icon-icon-check"></use></svg
+                ></span>
                 <span
-                  >Соглашаюсь с рассылкой и принимаю <a href="palicy-link">Условия договора</a>
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a class="palicy-link" href="">Условия договора</a>
                 </span>
               </label>
-
-              <div class="btn-form">
-                <button class="registration-btn" type="submit">Отправить</button>
-              </div>
+              <button class="registration-btn" type="submit">Отправить</button>
             </form>
           </div>
         </div>
