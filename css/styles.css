@@ -13,32 +13,32 @@
 
 
 /* Загальний шрифт на body */
-body {
+/* body {
   font-family: var(--main-font);
-}
+} */
 
 
 /* Reset css */
-h1,
+/* h1,
 h2,
 h3,
 h4,
 p {
   margin: 0;
-}
+} */
 
 
 /* Налаштування адаптивних зображень */
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 
 /* Cкидання стандартних стилів посилань браузера */
 
-.list {
+/* .list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -46,17 +46,17 @@ img {
 
 .link {
   text-decoration: none;
-}
-
+} */
 
 /* Розмітка контейнерів по строрінці */
-.container {
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 
-}
+} */
+
 
 /* ================= СТИЛЬ ДЛЯ СКРИВАННЯ ЗАГОЛОВКА ================= */
 .visually-hidden {
@@ -81,10 +81,10 @@ img {
 
 
 /* Падінги для секцій  */
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /* падінг для секції ЧЕМ МИ ЗАНІМАЄМСЯ */
 .section-title {
