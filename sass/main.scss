@@ -1,2 +1,34 @@
+@import "./utils/vars.scss";
+
 @import "./base/reset";
+
 @import "./base/base";
+
+@import "./components/btn";
+
+// icons-stile
+@import "./base/typograpfy";
+
+@import "./layout/header-section";
+
+@import "./components/hero-section";
+
+@import "./components/fearures-section";
+
+@import "./components/what-we-do-section";
+
+@import "./components/team-section";
+
+@import "./components/customers-section";
+
+// portfolio
+@import "./layout/header-portfolio";
+
+//main-portfolio
+@import "./components/main-portfolio";
+
+// footer-section
+@import "./layout/footer-section";
+
+
+

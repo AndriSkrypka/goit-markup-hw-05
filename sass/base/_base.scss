@@ -3,19 +3,7 @@ body {
     font-family: var(--main-font);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .container {
     width: 1200px;
@@ -33,4 +21,16 @@ body {
 /* падінг для секції ЧЕМ МИ ЗАНІМАЄМСЯ */
 .section-title {
     padding-top: 0;
+}
+
+/* Стилі для секції постоянні клієнти і чим ми займаємось */
+.section-title-list {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
 }
