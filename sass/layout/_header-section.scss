@@ -10,7 +10,7 @@
 }
 
 
-.header-container {
+.header__container {
     display: flex;
 }
 
@@ -35,7 +35,7 @@
 }
 
 /* СТИЛЬ ДЛЯ СПАНА В ЛОГО ХЕДЕР */
-.logo-span {
+.logo__span {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -46,11 +46,11 @@
 }
 
 /* ЗМІНА ДЛЯ ХЕДЕРА ДЛЯ ДВОХ СТОРІНОК  */
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
     position: relative;
 
     padding-top: 32px;
@@ -68,12 +68,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
     color: var(--accent-color);
 }
 
-.menu-link.link.active {
+.menu__link.link.active {
     color: var(--accent-color);
 }
 
@@ -92,21 +92,21 @@
     background-color: var(--accent-color);
 }
 
-.header-nav {
+.header__nav {
     display: flex;
 }
 
-.header-contect {
+.contacts {
     align-items: center;
     margin-left: auto;
     display: flex;
 }
 
-.contect-list:not(:first-child) {
+.contacts__list:not(:first-child) {
     margin-left: 50px;
 }
 
-.header-contect-link {
+.contacts__link {
     display: inline-flex;
     align-items: center;
     font-weight: 500;
@@ -120,21 +120,21 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contect-link:hover,
-.header-contect-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
     color: var(--accent-color);
 }
 
-.header-icons {
+.contacts__icons {
     fill: var(--main-text-color2);
     margin-right: 10px;
 }
 
-.header-contect-link:hover .header-icons {
+.contacts__link:hover .contacts__icons {
     fill: var(--accent-color);
 }
 
-.header-icons {
+.contacts__icons {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

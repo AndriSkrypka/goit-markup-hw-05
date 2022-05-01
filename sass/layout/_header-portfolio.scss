@@ -1,11 +1,11 @@
 /* ================= HEADER PORFOLIO ================= */
 
 
-.menu-link-portfolio {
+.menu__link--portfolio {
     position: relative;
 }
 
-.menu-link-portfolio::after {
+.menu__link--portfolio::after {
     content: "";
     display: block;
     position: absolute;
