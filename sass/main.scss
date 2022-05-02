@@ -1,4 +1,4 @@
-@import "./utils/vars.scss";
+@import "./utils/vars";
 
 @import "./base/reset";
 
@@ -21,8 +21,6 @@
 
 @import "./components/customers-section";
 
-// portfolio
-@import "./layout/header-portfolio";
 
 //main-portfolio
 @import "./components/main-portfolio";
