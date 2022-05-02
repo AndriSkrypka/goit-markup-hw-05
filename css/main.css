@@ -103,8 +103,7 @@ body {
   color: var(--one-color);
 }
 
-.modal-btn:hover,
-.menu-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   background-color: #188ce8;
 }
 
@@ -126,14 +125,8 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-team-icons:hover,
-.link-team-icons:focus {
+.link-team-icons:hover, .link-team-icons:focus {
   background-color: var(--accent-color);
-}
-
-.link-team-icons:hover .icons-team,
-.link-team-icons:focus .icons-team {
-  fill: var(--one-color);
 }
 
 /* ========================== /СТИЛІ ДЛЯ ПОСИЛАНЬ ІКОНОК============= */
@@ -143,6 +136,11 @@ body {
   width: 20px;
   height: 20px;
   fill: var(--color-icons);
+}
+
+.link-team-icons:hover .icons-team,
+.link-team-icons:focus .icons-team {
+  fill: var(--one-color);
 }
 
 .icon-team {
@@ -353,7 +351,7 @@ body {
 }
 
 .close-modal-btn:hover,
-.close-modal-icon:hover {
+.close-modal-btn .close-modal-icon:hover {
   fill: var(--accent-color);
 }
 
@@ -444,15 +442,15 @@ body {
   resize: none;
 }
 
+.form-textarea:focus {
+  border-color: var(--accent-color);
+}
+
 .form-textarea::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.form-textarea:focus {
-  border-color: var(--accent-color);
 }
 
 .checkbox-label {
@@ -747,8 +745,7 @@ body {
   border: none;
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.modal-button:hover, .modal-button:focus {
   background-color: var(--accent-color);
   color: var(--one-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -793,8 +790,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hover-link:hover,
-.hover-link:focus {
+.hover-link:hover, .hover-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
