@@ -22,6 +22,10 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+    border-color: var(--accent-color);
+}
 }
 
 
@@ -33,9 +37,7 @@
     margin-right: 0px;
 }
 
-.icon-client-link:hover {
-    border-color: var(--accent-color);
-}
+
 
 .icon-client-link:hover .icon-client,
 .icon-client-link:focus .icon-client {

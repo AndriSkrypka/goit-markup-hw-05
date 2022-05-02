@@ -1,32 +1,28 @@
-@import "./utils/vars";
+@import './utils/vars';
 
-@import "./base/reset";
+@import './base/reset';
 
-@import "./base/base";
+@import './base/base';
 
-@import "./components/btn";
+@import './components/btn';
 
 // icons-stile
-@import "./base/typograpfy";
+@import './components/icons-style';
 
-@import "./layout/header-section";
+@import './layout/header-section';
 
-@import "./components/hero-section";
+@import './components/hero-section';
 
-@import "./components/fearures-section";
+@import './components/fearures-section';
 
-@import "./components/what-we-do-section";
+@import './components/what-we-do-section';
 
-@import "./components/team-section";
+@import './components/team-section';
 
-@import "./components/customers-section";
-
+@import './components/customers-section';
 
 //main-portfolio
-@import "./components/main-portfolio";
+@import './components/main-portfolio';
 
 // footer-section
-@import "./layout/footer-section";
-
-
-
+@import './layout/footer-section';

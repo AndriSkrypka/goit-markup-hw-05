@@ -124,21 +124,14 @@
   color: var(--background-button-color);
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-
-  .hover-link:hover & {
-    transform: translateY(0);
-    opacity: 0.9;
-    transition: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
 }
 
-// .hover-link:hover .employees-text {
-//   transform: translateY(0);
-//   opacity: 0.9;
-//   transition: 250ms;
-//   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// }
+.hover-link:hover .employees-text {
+  transform: translateY(0);
+  opacity: 0.9;
+  transition: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .div-list-work {
   padding: 20px 24px;
